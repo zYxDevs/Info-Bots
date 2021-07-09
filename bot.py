@@ -33,7 +33,7 @@ HELP_TEXT = """
 ⭕️ Use /id in Group or Channel to get Unique Telegram ID
 """
 ABOUT_TEXT = """
-- **Bot :** `Info Bot`
+- **Bot :** `IDs Bot`
 - **Creator :** [Yoga Pranata](https://telegram.me/Yoga_CIC)
 - **Credits :** `Everyone in this journey`
 - **Source :** [Click here](https://notopensource.com)
@@ -51,19 +51,19 @@ BOT_BUTTONS = InlineKeyboardMarkup(
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
+        InlineKeyboardButton(text="Developer", url=f"https://t.me/Yoga_CIC")
         ]]
     )
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
+        InlineKeyboardButton(text="Support Chat", url=f"https://t.me/YBotsSupport")
         ]]
     )
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
+        InlineKeyboardButton(text="Updates Channel", url=f"https://t.me/SpreadNetworks")
         ]]
     )
                 
