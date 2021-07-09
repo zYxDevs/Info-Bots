@@ -16,6 +16,8 @@ START_TEXT = """
 <b>Hello {}
 
 I am a Simple Telegram Info Gathering Bot, Click /help to know my Commands and my uses<b>
+
+Made by @Yoga_CIC
 """
 HELP_TEXT = """
 🤔 How to use me?
@@ -32,9 +34,9 @@ HELP_TEXT = """
 """
 ABOUT_TEXT = """
 - **Bot :** `Info Bot`
-- **Creator :** [Vivek](https://telegram.me/Vivek_KERALA)
+- **Creator :** [Yoga Pranata](https://telegram.me/Yoga_CIC)
 - **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/vivek-tp/Info-Bot)
+- **Source :** [Click here](https://notopensource.com)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
@@ -42,26 +44,26 @@ ABOUT_TEXT = """
 
 BOT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
         ]]
     )
 
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
         ]]
     )
 
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
         ]]
     )
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text="SOURCE", url=f"https://github.com/vivek-tp/Info-Bot")
+        InlineKeyboardButton(text="SOURCE", url=f"https://notopensource.com")
         ]]
     )
                 
